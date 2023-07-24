@@ -1,5 +1,3 @@
-const { createPool } = require("mysql2")
-const { Pool } = require("pg")
 const { drivers } = require("../utils/helpers")
 
 class Driver {
@@ -8,12 +6,14 @@ class Driver {
 	}
 
 	postgres() {
+		const { Pool } = require("pg")
 		const client = new Pool(this.config.config)
 
 		return client
 	}
 
 	mysql() {
+		const { createPool } = require("mysql2")
 		const client = createPool(this.config.config).promise()
 
 		return client
