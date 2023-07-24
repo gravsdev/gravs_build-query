@@ -1,0 +1,20 @@
+{
+  "name": "@gravs/build-query",
+  "version": "0.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "dev": "nodemon ./src/main.js",
+    "test:postgres": "nodemon ./test/postgres.test.js",
+    "test:mysql": "nodemon ./test/mysql.test.js"
+  },
+  "keywords": [],
+  "author": "Jhoel Graus Vera",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql2": "3.5.2",
+    "nodemon": "3.0.1",
+    "pg": "8.11.1",
+    "rome": "12.1.3"
+  }
+}

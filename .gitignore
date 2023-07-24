@@ -1,0 +1,15 @@
+# Editor
+.vscode/
+
+# Dependencias
+node_modules/
+pnpm-lock.yaml
+
+# Linter
+rome.json
+
+# Test
+test/
+
+# Files
+.npmignore
