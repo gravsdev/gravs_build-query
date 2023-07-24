@@ -1,20 +1,34 @@
 {
   "name": "@gravs/build-query",
   "version": "0.0.0",
-  "description": "",
+  "description": "Generador de consultas SQL para PostgreSQL, MySQL diseñado para ser flexible, portátil y divertido de usar.",
   "main": "src/main.js",
   "scripts": {
     "dev": "nodemon ./src/main.js",
     "test:postgres": "nodemon ./test/postgres.test.js",
     "test:mysql": "nodemon ./test/mysql.test.js"
   },
-  "keywords": [],
-  "author": "Jhoel Graus Vera",
+  "keywords": [
+    "database",
+    "sql",
+    "queries",
+    "postgres",
+    "mysql"
+  ],
+  "author": "gravsdev",
   "license": "ISC",
   "devDependencies": {
     "mysql2": "3.5.2",
     "nodemon": "3.0.1",
     "pg": "8.11.1",
     "rome": "12.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gravsdev/gravs_build-query.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gravsdev/gravs_build-query/issues"
+  },
+  "homepage": "https://github.com/gravsdev/gravs_build-query#readme"
 }
