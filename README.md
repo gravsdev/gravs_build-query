@@ -1,5 +1,7 @@
 # Query Builder
 
+Generador de consultas SQL para PostgreSQL, MySQL diseñado para ser flexible, portátil y divertido de usar.
+
 - [Query Builder](#quer-builder)
   - [Instalación](#instalación)
   - [Conectarse](#conectarse)
