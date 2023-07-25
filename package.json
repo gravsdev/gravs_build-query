@@ -1,6 +1,6 @@
 {
   "name": "@gravs/build-query",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Generador de consultas SQL para PostgreSQL, MySQL diseñado para ser flexible, portátil y divertido de usar.",
   "main": "src/main.js",
   "scripts": {

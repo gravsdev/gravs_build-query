@@ -1,5 +1,3 @@
-const { drivers } = require("../utils/helpers")
-
 class Driver {
 	constructor(config) {
 		this.config = config
@@ -28,9 +26,7 @@ class Driver {
 	}
 
 	async isValidConnection(client) {
-		if (drivers.includes(this.config.driver)) {
-			await client.query("SELECT 1")
-		}
+		await client.query("SELECT 1")
 	}
 }
 

@@ -29,7 +29,6 @@ class Compile {
 
 			return rowsData
 		} catch (error) {
-			console.log(error)
 			throw new Error(error.message)
 		}
 	}
